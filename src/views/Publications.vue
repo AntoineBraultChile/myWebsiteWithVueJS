@@ -1,5 +1,12 @@
 <template>
   <div class="publications">
+    <h3>Preprint</h3>
+    <ul>
+      <li>
+        A. Brault, A. Lejay. <a target="_bank" href="https://hal.inria.fr/hal-01839202/" >The non-linear sewing lemma II: Lipschitz continuous formulation</a>,
+        2018, <strong>Submitted</strong>.
+      </li>
+    </ul>
     <h3>Publications</h3>
     <ul>
       <li>
@@ -7,10 +14,6 @@
         </li>
             <li>
         I. Bailleul, A. Brault, L. Coutin. <a target="_bank" href="https://hal.archives-ouvertes.fr/hal-02148440" >Young and rough differential inclusions</a>, <strong>Revista Matematica Iberoamericana</strong>, 2020.
-      </li>
-          <li>
-        A. Brault, A. Lejay. <a target="_bank" href="https://hal.inria.fr/hal-01839202/" >The non-linear sewing lemma II: Lipschitz continuous formulation</a>,
-        2018, <strong>Submitted</strong>.
       </li>
       <li>
         A. Brault, A. Lejay. <a target="_bank" href="https://hal.inria.fr/hal-01716945/" >The non-linear sewing lemma I: weak formulation</a>, <strong>Electron. J. Probab</strong>, 2019.

@@ -223,7 +223,7 @@ nav ul li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0px 10px 20px 0px;
+  padding: 0px 0px 0px 0px;
 
 }
 
@@ -247,10 +247,16 @@ nav ul li {
 }
 
 section{
-  padding: 0px 0px 0px 100px;
+  padding: 0px 0px 0px 90px;
   text-align:left;
   width:70%;
 }
+
+section ul{
+  list-style:circle;
+    padding-left:20px;
+}
+
 h3{
 line-height: 0.2em;
 }
@@ -275,9 +281,6 @@ line-height: 0.2em;
   opacity:0;
 }
 
-h3{
-  padding:0px;
-}
  @media all and (max-width: 1100px) {
 #page-container{
   width:100%;
