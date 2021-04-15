@@ -46,14 +46,14 @@
           <aside class="photo">
             <router-link to="/" exact><img src="./assets/moiCompresse.jpeg" alt="photoProfil" id='photoProfil'></router-link>
             <p id='legendPhoto'>Postdoc in applied mathematics at <a target="_blank" href="http://www.cmm.uchile.cl/">Center for Mathematical Modeling</a>
-              in <a href='https://www.uchile.cl/english'> University of Chile</a>.<br><br>
+              in <a target="_blank" href='https://www.uchile.cl/english'> University of Chile</a>.<br><br>
               <span class='tags'>
               <i class="far fa-envelope"></i>  &nbsp;
               <a href="mailto:abrault@dim.uchile.cl">abrault@dim.uchile.cl</a>
             </span><br>
             <span class='tags'>
               <i class="fab fa-github"></i>&nbsp;
-              <a href='https://github.com/AntoineBraultChile' target="_blank" > My github</a>
+              <a target="_blank" href='https://github.com/AntoineBraultChile'  > My github</a>
             </span>
             </p>
           </aside>
@@ -76,21 +76,21 @@
         navBar:false
       }
     },
-    methods: {
-      handleView:function (){
-        if (window.innerWidth <= 870){
-          this.mobileView = true
-        }
-      }
-    },
+    // methods: {
+    //   handleView:function (){
+    //     if (window.innerWidth <= 870){
+    //       this.mobileView = true
+    //     }
+    //   }
+    // },
     mounted() {
       window.addEventListener('resize', () => {
         this.mobileView = window.innerWidth <= 850
       })
-    },
-    created(){
-      this.handleView();
     }
+    // created(){
+    //   this.handleView();
+    // }
   }
 
 </script>
