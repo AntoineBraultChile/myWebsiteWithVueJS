@@ -27,7 +27,7 @@
    <a target="_bank" href="http://eventos.cmm.uchile.cl/4wcovid19/">4º Workshop sobre modelamiento aplicado al COVID-19 en Chile.</a> January 2021.
  </li>
  <li>
-   <a target="_bank" href="http://map5.mi.parisdescartes.fr/seminaires/thesards-docteurs/">Student seminar MAP5</a> in Paris. April 2016.
+   <a target="_bank" href="https://map5.mi.parisdescartes.fr/">Student seminar MAP5</a> in Paris. April 2016.
  </li>
 </ul>
 <h3>Summer Schools</h3>
