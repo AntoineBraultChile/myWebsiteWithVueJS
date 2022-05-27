@@ -91,23 +91,29 @@ export default {
     return {
       mobileView: false,
       navBar: false,
+      withToModileMode: 800,
     };
   },
-  // methods: {
-  //   handleView:function (){
-  //     if (window.innerWidth <= 870){
-  //       this.mobileView = true
-  //     }
-  //   }
-  // },
+  methods: {
+    handleView: function() {
+      if (window.innerWidth <= this.withToModileMode) {
+        this.mobileView = true;
+      }
+    },
+  },
   mounted() {
     window.addEventListener("resize", () => {
-      this.mobileView = window.innerWidth <= 850;
+      this.mobileView = window.innerWidth <= this.withToModileMode;
     });
   },
-  // created(){
-  //   this.handleView();
-  // }
+  created() {
+    this.handleView();
+  },
+  // created() {
+  //   window.addEventListener("resize", () => {
+  //     this.mobileView = window.innerWidth <= 800;
+  //   });
+  // },
 };
 </script>
 
